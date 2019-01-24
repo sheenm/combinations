@@ -1,5 +1,5 @@
 {
-  "name": "combinations",
+  "name": "combinations-with-max",
   "version": "0.1.2",
   "description": "find all combinations from array. Taken from jgallen23 because he didn't publish for so long time",
   "main": "index.js",
@@ -17,9 +17,7 @@
   },
   "author": "Greg Allen <@greg_allen> (http://jga.me)",
   "license": "MIT",
-  "dependencies": {
-    
-  },
+  "dependencies": {},
   "devDependencies": {
     "mocha": "*"
   }

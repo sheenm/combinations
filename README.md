@@ -1,5 +1,8 @@
 Combinations [![Build Status](https://travis-ci.org/jgallen23/combinations.svg?branch=master)](https://travis-ci.org/jgallen23/combinations)
 ============
+# Note
+Note that this is fork of jgallen23 combinations repository (https://github.com/jgallen23/combinations) without any changes.
+But since the author did not publish for 3 years (and did not include the last commit), I think it's better to publish myself.
 
 # Installation
 
@@ -19,12 +22,12 @@ Combinations [![Build Status](https://travis-ci.org/jgallen23/combinations.svg?b
 
     var combinations = require('combinations');
     var myArray = ['red', 'orange', 'yellow', 'green'];
-    
-    combinations(myArray); 
-  
+
+    combinations(myArray);
+
     //Output:
-    //  [ [ 'red' ],                      [ 'orange' ],    
-    //    [ 'yellow' ],                   [ 'green' ],  
+    //  [ [ 'red' ],                      [ 'orange' ],
+    //    [ 'yellow' ],                   [ 'green' ],
     //    [ 'red', 'orange' ],            [ 'red', 'yellow' ],
     //    [ 'red', 'green' ],             [ 'orange', 'yellow' ],
     //    [ 'orange', 'green' ],          [ 'yellow', 'green' ],
@@ -35,7 +38,7 @@ Combinations [![Build Status](https://travis-ci.org/jgallen23/combinations.svg?b
 # Example with a minimum array size
 
     combinations(myArray, 2);
-    
+
     //Output:
     //  [ [ 'red', 'orange' ],            [ 'red', 'yellow' ],
     //    [ 'red', 'green' ],             [ 'orange', 'yellow' ],
@@ -47,7 +50,7 @@ Combinations [![Build Status](https://travis-ci.org/jgallen23/combinations.svg?b
 # Example with a minimum and maximum array size
 
     combinations(myArray, 2, 3);
-    
+
     //Output:
     //  [ [ 'red', 'orange' ],            [ 'red', 'yellow' ],
     //    [ 'red', 'green' ],             [ 'orange', 'yellow' ],
