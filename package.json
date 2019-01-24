@@ -1,11 +1,11 @@
 {
   "name": "combinations",
-  "version": "0.1.1",
-  "description": "find all combinations from array",
+  "version": "0.1.2",
+  "description": "find all combinations from array. Taken from jgallen23 because he didn't publish for so long time",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/jgallen23/combinations.git"
+    "url": "git://github.com/sheenm/combinations.git"
   },
   "keywords": [
     "combination",
